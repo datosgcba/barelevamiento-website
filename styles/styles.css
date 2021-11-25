@@ -1,0 +1,132 @@
+/* ##### HEADER ##### */
+#header {
+    border-bottom: 1px solid #cccccc;
+}
+
+.border-gradient {
+    border-top: 6px solid #fdd306;
+    border-bottom: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-image: linear-gradient(to right, #fdd306, #e74c3c) 1 stretch;
+  }
+
+#header > nav {
+    margin: 1.5vh 0 1vh 0;
+}
+
+.navbar {
+    border: 0;
+}
+
+.navbar-brand {
+    margin-right: 25vw;
+}
+
+.navbar-brand > h1 {
+    color: #444444;
+    font-size: 1.5em;
+}
+
+#ba-logo img {
+    width: 9em;
+}
+/* ##### MAIN CONTENT ##### */
+.jumbotron {
+    min-height: calc(100vh - 83px)!important;
+    background-color: #ccc;
+    background-image: url("../images/Buenos_Aires_Puerto_Madero_13.jpg");
+}
+
+.soft-grey-background {
+    background: rgba(113, 113, 112, 0.7);
+}
+
+/* ##### CONTENT ##### */
+
+/* ##### FOOTER ##### */
+#ba-footer {
+    background: #333;
+}
+
+.container-ba {
+    border-right: solid 1px #666
+}
+
+.container-ba img {
+    width: 11em;
+}
+
+.container-redes > a,
+#telefonos > a {
+    text-decoration: none;
+}
+
+.container-ba-border h3,
+.container-ba-border p {
+    color: #fff;
+    font-size: 1em;
+    font-family: "CHANEWEI", Helvetica, Arial, sans-serif;
+    letter-spacing: -0.5px;
+}
+
+.container-redes img {
+    width: 2em;
+}
+
+.container-redes a:hover,
+.container-redes a:focus,
+#telefonos a:hover,
+#telefonos a:focus {
+  opacity: 0.5;
+}
+
+.container-redes a:active,
+#telefonos a:active {
+  opacity: 1;
+}
+
+.gray-border {
+    border-top: solid 1px #e5e5e5;
+    border-bottom: solid 1px #e5e5e5;
+}
+
+#telefonos > a p {
+    color: #fff;
+    margin: 0;
+}
+
+#telefonos > a p.lead {
+    font-size: 25px;
+    font-family: "CHANEWEI", Helvetica, Arial, sans-serif;
+    letter-spacing: -0.5px;
+}
+
+/* ##### MEDIA QUERIES ##### */
+
+@media screen and (max-width: 768px) {
+    #ba-logo {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #ba-logo {
+        border-right: solid 1px #666;
+    }
+    .navbar-brand {
+        margin-right: 30vw;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navbar-brand {
+        margin-right: 10vw;
+    }
+    .navbar-brand > h1 {
+        font-size: 1em;
+    }
+    .container-ba-border {
+        margin: 3vh 0;
+    }
+}

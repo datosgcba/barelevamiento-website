@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BA Relevamiento</title>
+    <link rel=" icon" href="./bastrap/images/favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="bastrap/bastrap.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <header id="header" class="border-gradient sticky-top bg-light d-flex justify-content-center">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <!-- Brand -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img id="ba-logo" src="bastrap/images/ba_logo.png" alt="logo del gcba">
+                <h1 class="m-0 flex-grow-1 pl-3">BA Relevamiento</h1>
+            </a>
+        
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Future link menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Future link menu</a>
+                </li> -->
+                <li class="nav-item dropdown">
+                    <a class="btn btn-primary dropdown-toggle d-flex align-items-center justify-content-center" href="#" id="navbardrop" data-toggle="dropdown">
+                        Ingresar
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="http://kf.barelevamiento.gcba.ar/autorizacion">Cuenta Ciudad</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="http://kf.barelevamiento.gcba.ar/account/login">Local</a>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="jumbotron jumbotron-main d-flex">
+                <div class="container-fluid m-auto px-5">
+                    <div class="flex-column justify-content-center align-content-center soft-grey-background mt-3">
+                        <h1>BA Relevamiento</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod libero ante, non semper lacus interdum
+                            eget. Morbi vulputate hendrerit diam, vel feugiat massa bibendum vitae. Proin in augue massa. Pellentesque habitant
+                            morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque fermentum consectetur rhoncus.
+                            Nulla volutpat rutrum posuere. Mauris faucibus et ligula ac tempor. Quisque facilisis commodo pulvinar. Nullam
+                            tincidunt justo erat, accumsan suscipit magna sagittis ac. Quisque lorem ipsum, laoreet et tempus a, eleifend at ex.
+                            Aenean dapibus tempus nisi, et mollis felis tempor at.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section>
+            Contenido
+        </section> -->
+    </main>
+
+    <footer id="ba-footer">
+        <div class="container py-5">
+            <div class="d-flex flex-wrap align-content-center align-items-center mb-5">
+                <div class="container-ba">
+                    <a href="http://www.buenosaires.gob.ar/" style="text-decoration: none;">
+                        <img src="bastrap/images/ba_vamosba_blanco.png" alt="logo del gcba">
+                    </a>
+                </div>
+                <div class="container-ba-border d-flex flex-grow-1 flex-column flex-nowrap pl-3">
+                    <a href="https://www.buenosaires.gob.ar/jefaturadegabinete/innovacion" style="text-decoration: none;">
+                        <h3 class="m-0">Secretaría de Innovación y Transformación Digital</h3>
+                    </a>
+                    <p class="m-0">Gerencia Operativa de Ingeniería de Datos</p>
+                </div>
+                <div class="container-redes my-2 d-flex flex-fill justify-content-center">
+                    <a class="logo-social" href="https://www.facebook.com/GCBA/">
+                        <img class="mx-1" src="images/social/social-fb.svg" alt="logo de facebook">
+                    </a>
+                    <a class="logo-social" href="https://twitter.com/gcba">
+                        <img class="mx-1" src="images/social/social-tw.svg" alt="logo de twitter">
+                    </a>
+                    <a class="logo-social" href="https://www.instagram.com/buenosaires/">
+                        <img class="mx-1" src="images/social/social-in.svg" alt="logo de instagram">
+                    </a>
+                    <a class="logo-social" href="https://www.youtube.com/user/GCBA">
+                        <img class="mx-1" src="images/social/social-yt.svg" alt="logo de youtube">
+                    </a>
+                    <a class="logo-social" href="https://www.buenosaires.gob.ar/rss/noticias">
+                        <img class="mx-1" src="images/social/social-rss.svg" alt="logo del feed de rrss">
+                    </a>
+                </div>
+            </div>
+
+            <div class="container-telefonos">
+                <div id="telefonos" class="d-flex flex-row flex-wrap gray-border px-5 py-4 justify-content-between flex-fill">
+                    <a class="m-3" href="tel:103">
+                        <p class="lead"><img src="images/telephone-fill.svg" alt="imagen de un telefono"> 103</p>
+                        <p class="text-muted small pl-4">Emergencias</p>
+                    </a>
+                    <a class="m-3" href="tel:107">
+                        <p class="lead"><img src="images/telephone-fill.svg" alt="imagen de un telefono"> 107</p>
+                        <p class="text-muted small pl-4">SAME</p>
+                    </a>
+                    <a class="m-3" href="tel:108">
+                        <p class="lead"><img src="images/telephone-fill.svg" alt="imagen de un telefono"> 108</p>
+                        <p class="text-muted small pl-4">Línea social</p>
+                    </a>
+                    <a class="m-3" href="tel:147">
+                        <p class="lead"><img src="images/telephone-fill.svg" alt="imagen de un telefono"> 147</p>
+                        <p class="text-muted small pl-4">Atención Ciudadana</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="container-ciudad text-muted">
+                <div class="d-flex flex-column flex-nowrap align-items-center mt-5">
+                    <a href="http://www.buenosaires.gob.ar/">
+                        <img src="bastrap/images/bac-footer.svg" alt="logo del gcba">
+                    </a>
+                    <p class="small mt-3 text-center">Los contenidos de buenosaires.gob.ar están licenciados bajo Creative Commons Reconocimiento 2.5 Argentina License.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+</html>
